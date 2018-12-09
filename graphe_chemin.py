@@ -118,6 +118,6 @@ if __name__=="__main__":
     ### Initiateur
     init="a"
     print("Résultat de Ford:{}".format(ford(init,arcs,sommet,poid)))
-    print("Résultat deDejkstra version 1:{}".format(dijkstra_v1(init,arcs,sommet,poid)))
-    print("Résultat deDejkstra version 2:{}".format(dijkstra_v2(init,arcs,sommet,poid)))
+    print("Résultat de Dijkstra version 1:{}".format(dijkstra_v1(init,arcs,sommet,poid)))
+    print("Résultat de Dijkstra version 2:{}".format(dijkstra_v2(init,arcs,sommet,poid)))
     
